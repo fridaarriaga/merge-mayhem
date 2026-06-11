@@ -7,6 +7,8 @@ const hello= document.querySelector("Helle")
 - `let`: Variables defined by `let` declaration are typically defined *inside* of a block of code (typically defined by curly brackets, `{}`). This block of code is sometimes called **scope**. Within its scope, a `let` variable's value may change but cannot be redefined. This ensures that a `let` variable name must be unique within a single scope. `let` variables are typically used within functions for temporarily used and are not called in multiple functions like `var` variables.
 - `const`: Variables defined by `const` declaration are **constant** values. They cannot be updated or re-declared.
 
+- Since there are no attributes attached to this element, no `id` or `class` name, this eliminates the use of the `getElementById` method.
+- We can only use the `querySelector` or `querySelectorAll` method. However, since there is only a single instance of a `p` element, we will elect to use the `querySelector` method with the **element selector** associated with its tag name `p`.
 When storing DOM variables, take a moment to think about which type of variable you would use to store DOM references to HTML elements.
 1: ## Variables
 
